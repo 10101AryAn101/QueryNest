@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body { @apply bg-slate-900 text-slate-100 }
+
+/* Fix browser autofill styles for dark mode */
+.dark-input {
+  background: #374151 !important; /* slate-700 */
+  color: #f1f5f9 !important; /* slate-100 */
+  border-color: #4b5563 !important; /* slate-600 */
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #374151 inset !important; /* slate-700 background */
+  -webkit-text-fill-color: #f1f5f9 !important; /* slate-100 text */
+  background: #374151 !important;
+  color: #f1f5f9 !important;
+  border-color: #4b5563 !important; /* slate-600 border if affected */
+}
+input:-moz-autofill {
+  box-shadow: 0 0 0 1000px #374151 inset !important;
+  color: #f1f5f9 !important;
+  background: #374151 !important;
+}
