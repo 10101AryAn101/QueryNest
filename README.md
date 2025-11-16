@@ -1,5 +1,4 @@
-# View Live App
-[🔗 **Click Here to Try QueryNest**](https://querynest-1-aseq.onrender.com/)
+# View Live App : (https://querynest-1-aseq.onrender.com/)
 
 
 
