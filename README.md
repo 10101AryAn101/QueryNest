@@ -1,7 +1,11 @@
+# View Live App
+[🔗 **Click Here to Try QueryNest**](https://querynest-1-aseq.onrender.com/)
+
+
+
+
 # QueryNest
 
-### Live Preview
-**[View Live App](https://querynest-1-aseq.onrender.com/)**
 
 
 A full-stack document management system with OCR-powered text extraction and intelligent search.
